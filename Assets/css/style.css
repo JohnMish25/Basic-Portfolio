@@ -1,0 +1,103 @@
+.Contact {color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.JohnMish {color: white; 
+    background-color:teal;
+    margin: 20px;
+}
+
+.images {
+    position: relative;
+    padding: 25px;
+}
+
+.header {
+    margin-bottom: 10px;
+    position: top;
+    height: 10px;
+    color: white;
+    background-color: teal;
+}
+
+.nav
+{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    color:grey;
+    font-size: 16px;
+    background-color:white;
+}
+
+
+.container {
+    background: #ffffff;
+    border: solid;
+    width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    word-wrap: normal;
+    height: 500px;
+    float: center;
+    margin-bottom: 100px;
+}
+
+.container2 {
+    background: #ffffff;
+    border: solid;
+    width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    word-wrap: normal;
+    height: 700px;
+    float: center;
+    margin-bottom: 100px;    
+}
+.about {
+    word-wrap: normal;
+    float: right;
+    padding: 25px;
+    height: 250px;
+  }
+
+.image1 {
+      float: left;
+      border: solid;
+      
+  }
+
+.fullpage {
+      background-color: gray;
+      width: 100%;
+      height: 1000px;
+
+  }
+
+.foot {
+    background-color:#666666;
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+    border-top: thick;
+    border: 1px solid white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  *, *::after, *::before {
+    box-sizing: border-box;
+  }
