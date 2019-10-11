@@ -1,10 +1,7 @@
 
 
 
-.JohnMish {
-  background-color: teal;
-  width: 100%;
-}
+
 
 .images {
     position: relative;
@@ -20,24 +17,33 @@
 
 
 .header {
-    margin-bottom: 10px;
-    position: top;
-    height: 15px;
-    color: #777777;
-    background-color: teal;
-}
+margin-bottom: 20px;
+position: top;
+height: 15px;
+color: #777777;
+background-color:white}
 
 .nav {
 list-style-type: none;
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 font-size: 14px;
-  background-color: white;
-  display: block;
-  color:grey;
-  float: right;
-  padding: 14px 16px;
-  text-decoration: none;
+background-color: white !important;
+display: block;
+color:grey;
+float: right;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.JohnMish {
+  background-color: teal !important;
+  width: 85%;
+  margin-left: 150px;
+  height: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
 }
 
 
@@ -212,8 +218,3 @@ font-size: 14px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;}
-
-    .johnmishtitle {
-      background-color: #4aaaa5;
-float: right;
-    }
