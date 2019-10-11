@@ -1,35 +1,43 @@
-.Contact {color: pink;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 
-.JohnMish {color: white; 
-    background-color:teal;
-    margin: 20px;
+
+.JohnMish {
+  background-color: teal;
+  width: 100%;
 }
 
 .images {
     position: relative;
     padding: 25px;
-
 }
+
+.image1 {
+  float: left;
+  border: solid;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
 
 .header {
     margin-bottom: 10px;
     position: top;
-    height: 10px;
-    color: white;
+    height: 15px;
+    color: #777777;
     background-color: teal;
 }
 
-.nav
-{list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: right;
-    color:grey;
-    font-size: 16px;
-    background-color:white;
+.nav {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+font-size: 14px;
+  background-color: white;
+  display: block;
+  color:grey;
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 
@@ -43,7 +51,7 @@
     word-wrap: normal;
     height: 500px;
     float: center;
-    margin-bottom: 100px;
+    margin-bottom: 100px;;
 }
 
 .container2 {
@@ -136,16 +144,12 @@
     word-wrap: normal;
     float: right;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-.image1 {
-      float: left;
-      border: solid;
-      
-  }
 
 .fullpage {
-      background-color: gray;
+      background-image: url(circle-blues.png);
       width: 100%;
       height: 1000px;
 
@@ -154,7 +158,7 @@
 .foot {
     background-color:#666666;
     width: 100%;
-    height: 100px;
+    height: 50px;
     padding: 25px;
     border-top: thick;
     border: 1px solid white;
@@ -175,3 +179,41 @@
   *, *::after, *::before {
     box-sizing: border-box;
   }
+
+  .nameinput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .nameinput2 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 160px;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+    .johnmishtitle {
+      background-color: #4aaaa5;
+float: right;
+    }
